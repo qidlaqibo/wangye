@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin:0;
+}
+header{
+    position:fixed;
+    background-color:#00000070;
+    height:80px;
+    width:100%;
+}
+header ul{
+    position:fixed;
+    right:1vw;
+    top:0;
+    line-height:80px;
+}
+h1{
+    color:white;
+    position:fixed;
+    left:0;
+    top:0;
+    line-height:80px;
+}
+h1{
+    background-image: url("aphoto/1B5FF.png") ;
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+    text-indent: 90px;
+}
+header li{
+    display:inline-block;
+    margin-right:4vw;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration:underline
+}
+main{
+    background-image: url("aphoto/BB1msMpA.img");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+div a{
+    color:white;
+    text-decoration: none;
+}
+div a:hover{
+text-decoration: underline;
+}
+div{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+    height:45vh
+}
+div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div h2{
+    font-size: 50px;
+    margin-top: 90px;
+}
+div h3{
+    color:white;
+    font-size:20px;
+    margin:25px 0;
+}
+
+section{
+    background-color: #ebdeb5; 
+    border:5px #877a4f solid;
+    padding:30px 20px;
+    margin:30px;
+}
+section a{
+    color:black;
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: underline;
+}
+.s1 img{
+    width: 40px;
+    height: 40px;
+}
+.s1{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+h5{
+    font-size:20px;
+    background-color:#00000000;
+    color:white;
+    height:40px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: top;
+}
+footer{
+    width:100%;
+    background-color: #000000;
+    color: #5b5b5b;
+    height:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+}
